@@ -11,42 +11,80 @@
 <body >
     <div class="container-fluid">
         <div class="row">
-            <div class="col-3 min-vh-100 bg-dark">
-                <div class="d-flex flex-column flex-shrink-0 p-3 text-bg-dark">
-                    <a href="#" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
-                      <svg class="bi pe-none me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+            <nav class="navbar navbar-dark bg-dark d-md-none" aria-label="First navbar example">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">Bootstrap Dashboard</a>
+                  <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample01" aria-controls="navbarsExample01" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+            
+                  <div class="navbar-collapse collapse" id="navbarsExample01">
+                    <ul class="navbar-nav me-auto mb-2">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Dashboard</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./sponsor.html">Sponsorizzazione</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./form.html">Prodotti</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./prodotti.html">Nuovo prodotto</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Clienti</a>
+                      </li>
+                    </ul>
+                    <ul class="navbar-nav me-auto pt-4">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Impostazioni</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Profili</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Esci</a>
+                        </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+            <div class="col-3 col-md-2 d-none d-md-block min-vh-100 bg-dark">
+                <div class="d-flex flex-column flex-shrink-0 p-3 text-bg-dark ">
+                    <a href="#" class="d-flex mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+                      <svg class="bi pe-none me-2" height="32"><use xlink:href="#bootstrap"></use></svg>
                       <span class="fs-4">Sidebar</span>
                     </a>
                     <hr>
                     <ul class="nav nav-pills flex-column mb-auto">
                         <li>
                             <a href="#" class="nav-link text-white">
-                              <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#"></use></svg>
+                              <svg class="bi pe-none me-2" height="16"><use xlink:href="#"></use></svg>
                               Dashboard
                             </a>
                           </li>
                           <li class="nav-item">
-                            <a href="./sponsor.html" class="nav-link active" aria-current="page">
-                              <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#"></use></svg>
+                            <a href="./sponsor.html" class="nav-link p-0 active" aria-current="page">
+                              <svg class="bi pe-none me-2" height="16"><use xlink:href="#"></use></svg>
                               Sponsorizzazione
                             </a>
                           </li>
     
                       <li>
-                        <a href="./prodotti.html" class="nav-link text-white">
-                          <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="./form.html"></use></svg>
-                          Prodotti
-                        </a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./prodotti.html">Prodotti</a>
+                          </li>
                       </li>
                       <li>
-                        <a href="./form.html" class="nav-link text-white">
-                          <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#grid"></use></svg>
+                        <a href="./nuovo-prodotto.html" class="nav-link text-white">
+                          <svg class="bi pe-none me-2" height="16"><use xlink:href="#grid"></use></svg>
                           Nuovo Prodotto
                         </a>
                       </li>
                       <li>
                         <a href="#" class="nav-link text-white">
-                          <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#people-circle"></use></svg>
+                          <svg class="bi pe-none me-2" height="16"><use xlink:href="#people-circle"></use></svg>
                           Clienti
                         </a>
                       </li>
@@ -67,7 +105,7 @@
                     </div>
                   </div> 
             </div>
-            <div class="col-9 bg-primary-subtle min-vh-100"></div>
+            <div class="col-12 col-md-10 bg-primary-subtle min-vh-100"></div>
         </div>
     </div>
 
